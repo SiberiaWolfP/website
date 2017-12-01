@@ -1,0 +1,72 @@
+div.navibar{
+	margin-top: 0;
+	width: 100%;
+	height: 60px;
+	padding-top: 0;
+	border-style: none;
+	overflow: visible
+		
+}
+div.navi-background{
+	width: 100%;height: 50px;
+	background-color: #918383;
+	border-radius: 0 0 0.3em 0.3em;
+	border-style:none;
+	border-color: #AAAAAA;
+	overflow: visible;
+	margin-top: 0;
+	padding-top: 0
+}
+div.navi-tage{
+	z-index: 1;
+	width: 1.5cm;
+	height: 1.4cm;
+	float:left;
+	margin-top: 0;
+	text-align: center;
+	border-style: none;
+	border-radius: 0 0 0.2em 0.2em;
+}
+a.navibar{
+	color: white;
+	line-height: 50px;
+	font-size: 0.5cm;
+	text-decoration:none;
+	user-select:none
+}
+.card{
+        width:100%;
+        height:auto;
+        background:#fff;
+        box-shadow: 10px 10px 5px #888888;
+        border-radius:5px;
+        margin-bottom: 50px;
+        min-height:300px;
+        word-wrap: break-word;
+	padding: 20px;
+
+  
+    }
+.date{
+	width: 20px;
+	height: 20px;
+	float: left;
+	border-style: hidden;
+	border-color: red;
+	border-width: 1px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-right: 40px
+}
+.userButton{
+	background-repeat: no-repeat;
+	background-size:auto;
+	border-style: none;
+	background: transparent;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 35px;height: 28px
+}
+
