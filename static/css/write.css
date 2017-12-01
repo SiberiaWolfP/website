@@ -1,0 +1,130 @@
+body{
+	position: relative;
+	background-image: url(../img/sinablogb.jpg);
+	background-repeat: repeat-y;
+}
+
+.header{
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	background-color: rgba(220, 191, 171, 0.2);
+	float: right;
+	z-index: 0;
+}
+
+.main{
+	text-align: center;
+	width: 60px!important;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	font-size: 20px;
+	text-decoration: none!important;
+	color: #000000;
+}
+
+.main:hover{
+	height: 40px;
+	background-color: rgba(160,155,165,0.5);
+	position: absolute;
+	float: left;
+	font-size: 20px;
+	text-decoration: none!important;
+	color: #000000;
+	transition: background-color 0.4s;
+}
+
+.user{
+	padding-top: 5px;
+	text-align: center;
+	width: 100px!important;
+	float: right;
+	font-size: 20px;
+	text-decoration: none!important;
+	color: #000000;
+}
+
+.user:hover{
+	height: 40px;
+	background-color: rgba(160,155,165,0.5);
+	float: right;
+	font-size: 20px;
+	text-decoration: none!important;
+	color: #000000;
+	transition: background-color 0.4s;
+}
+
+.editer{
+	margin-left: 11em;
+	margin-right:;
+	position: absolute;
+	z-index: 1;
+}
+
+.title{
+	float: left;
+	margin-left: 10px;
+	margin-top: 40px;
+	font-size: 20px;
+	width: 100px;
+	margin-right: 5px!important;
+	
+}
+
+.modal-backdrop{
+	position: relative!important;
+}
+
+.title2{
+	margin-left: 200px;
+	position: absolute;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+.note-editor{
+	margin-top: 70px!important;
+}
+
+.title3{
+	margin-left: 150px;
+	position: absolute;
+	margin-top: 43px;
+	font-size: 20px;
+	height: 25px;
+	border-radius: 3px;
+	border:1px solid #00BFFF;
+	width: 600px;
+}
+
+
+.file {
+	float: right;
+	margin-top:40px ;
+	margin-right: -60px;
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
